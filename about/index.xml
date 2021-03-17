@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Guilhermo von Scharten Heldt</title>
-    <link>https://guilovsh.github.io/about/</link>
+    <link>https://guilovsh.com/about/</link>
     <description>Recent content in About me on Guilhermo von Scharten Heldt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2021 19:59:53 +0000</lastBuildDate><atom:link href="https://guilovsh.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 19:59:53 +0000</lastBuildDate><atom:link href="https://guilovsh.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
