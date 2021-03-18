@@ -852,6 +852,7 @@ a:active {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin:0;
 }
 .box-masonry h4 a {
 	color: #fff;
@@ -864,7 +865,7 @@ a:active {
   text-decoration: none;
 }
 .box-masonry .box-masonry-text {
-  padding: 0px 10px 0px;
+  padding: 10px;
   position:absolute;
   bottom:0;
   left:0;  
@@ -2143,6 +2144,9 @@ float:right;
 	.project-gallery{	
 		margin:25px 0;
 		float:none;
+	}
+	.box-masonry h4 {
+	  font-size: 12px;
 	}
 }
 
