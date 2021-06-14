@@ -369,7 +369,7 @@ SIDEBAR + RIGHT COLUMN
   margin-bottom: 5px;
 }
 .sidebar-menu li a {
-  color: #555555;
+  color: #666666;
   border-bottom: none;
 }
 .sidebar-menu li:before {
@@ -396,7 +396,7 @@ SIDEBAR + RIGHT COLUMN
   padding-top: 40px;
 }
 .content-column.white-background {
-  background: #0B0B0B;
+  background: #0E0E10;
   min-height: 100vh;
 }
 .grid {
@@ -837,7 +837,7 @@ a:active {
   overflow: visible;
 }
 .box-masonry {
-  background: #181818;;
+  background: #1F1F23;;
   margin-bottom: 30px;
   position: relative;
   -webkit-transition: all 0.2s ease-out;
@@ -845,6 +845,7 @@ a:active {
   transition: all 0.2s ease-out;
   overflow: hidden;
   text-overflow: ellipsis;
+  border-radius: 7px;
 }
 .box-masonry h4 {
   font-size: 16px;
@@ -870,7 +871,7 @@ a:active {
   bottom:0;
   left:0;  
   pointer-events: none; 
-  background:#181818e0;
+  background:#1F1F23e0;
 }
 .box-masonry .box-masonry-text p {
   color: #999999;
@@ -910,7 +911,7 @@ a:active {
   font-size: 50px;
 }
 .box-masonry:hover {
-  box-shadow: 0px 0px 15px 5px #41EDFF;
+  box-shadow: 0px 0px 5px 3px #41EDFF;
   z-index:9999999;
 }
 .box-masonry:hover .box-masonry-hover-text-header {
@@ -934,12 +935,13 @@ a:active {
   position: relative;
   min-height: 100px;
 }
+
 .box-masonry .box-masonry-image.with-hover-overlay:before {
   display: block;
   position: absolute;
   content: " ";
   background: #000;
-  opacity: 0;
+	opacity: 0;
   width: 100%;
   height: 100%;
   left: 0;
@@ -957,7 +959,7 @@ a:active {
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  opacity: 0;
+		opacity: 0;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -966,10 +968,12 @@ a:active {
   text-align: center;
   font-size: 50px;
   color: #FFF;
-}
+	}
+
 .box-masonry .box-masonry-image:hover {
   text-decoration: none;
 }
+
 .box-simple {
   text-align: center;
   margin-bottom: 48px;
@@ -1603,7 +1607,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
-  background-color: #181818;
+  background-color: #1F1F23;
 }
 a {
   color: #999999;
@@ -2152,6 +2156,11 @@ float:right;
 
 .project-gallery img{
 	max-height: 325px;
-	border: 3px solid #181818;
+	border: 3px solid #1F1F23;
 	margin: 0;
+	border-radius: 7px;
+}
+
+.box-masonry a{
+	border-bottom: none;
 }
